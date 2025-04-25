@@ -3,10 +3,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("ДЗ - Переменные 2\n");
-        System.out.printf(" \n");
+        System.out.println("ДЗ - Переменные 2");
+        System.out.println(" ");
 
-        System.out.printf("Задача 1 \n");
+        System.out.println("Задача 1");
         int intVar = -2_000_000;
         byte byteVar = 127;
         short shortVar = -32_767;
@@ -19,9 +19,9 @@ public class Main {
         System.out.printf("Значение переменной longVar с типом long равно %d \n",longVar);
         System.out.printf("Значение переменной floatVar с типом float равно %f \n",floatVar);
         System.out.printf("Значение переменной doubleVar с типом double равно %f \n",doubleVar);
-        System.out.printf(" \n");
+        System.out.println(" ");
 
-        System.out.printf("Задача 2 \n");
+        System.out.println("Задача 2");
         float floatVarTwo = 27.12f;
         double doubleVarTwo = 987_678_965_549.0f;
         float floatVarThree = 2.786f;
@@ -36,6 +36,6 @@ public class Main {
         System.out.printf("Значение переменной shortVarThree %d \n", shortVarThree);
         System.out.printf("Значение переменной shortVarFour %d \n", shortVarFour);
         System.out.printf("Значение переменной byteVarTwo %d \n", byteVarTwo);
-        System.out.printf(" \n");
+        System.out.println(" ");
     }
 }
