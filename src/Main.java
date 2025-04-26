@@ -37,5 +37,37 @@ public class Main {
         System.out.printf("Значение переменной shortVarFour %d \n", shortVarFour);
         System.out.printf("Значение переменной byteVarTwo %d \n", byteVarTwo);
         System.out.println(" ");
+
+        System.out.println("Задача 3");
+        int teacherLudPavCntStudents = 23;
+        int teacherAnSerCntStudents = 27;
+        int teacherEkAndCntStudents = 30;
+        int cntPapers = 480;
+        int cntStudents = teacherLudPavCntStudents + teacherAnSerCntStudents + teacherEkAndCntStudents;
+        int cntPapersOneStudent = cntPapers/cntStudents;
+        System.out.printf("У Людмилы Павловны —  %d ученика \n", teacherLudPavCntStudents);
+        System.out.printf("у Анны Сергеевны —  %d учеников \n", teacherAnSerCntStudents);
+        System.out.printf("у Екатерины Андреевны —  %d учеников \n", teacherEkAndCntStudents);
+        System.out.printf("Три учительницы закупили все вместе %d листов бумаги на все три класса \n", cntPapers);
+        System.out.printf("Всего учеников %d \n", cntStudents);
+        System.out.printf("На каждого ученика рассчитано %d листов бумаги \n", cntPapersOneStudent);
+        System.out.println(" ");
+
+        System.out.println("Задача 4");
+        int performanceBottlesMfgPerTwoMin = 16;
+        int twoMin = 2;
+        int performanceBottlesMfgPerMin = performanceBottlesMfgPerTwoMin/twoMin;
+        int performanceBottlesMfgPerTwentyMin = performanceBottlesMfgPerMin*20;
+        int minInHour = 60;
+        int minInDay = minInHour * 24;
+        int performanceBottlesMfgPerDay = performanceBottlesMfgPerMin*minInDay;
+        int performanceBottlesMfgPerThreeDays = performanceBottlesMfgPerMin*minInDay*3;
+        int performanceBottlesMfgPerThreeMonth = performanceBottlesMfgPerMin*minInDay*30;
+        System.out.printf("За 2 минуты машина произвела %d штук бутылок \n", performanceBottlesMfgPerTwoMin);
+        System.out.printf("За 1 минуту машина производит %d штук бутылок \n", performanceBottlesMfgPerMin);
+        System.out.printf("За 20 минут машина производит %d штук бутылок \n", performanceBottlesMfgPerTwentyMin);
+        System.out.printf("В сутки машина произведет %d штук бутылок \n", performanceBottlesMfgPerDay);
+        System.out.printf("За 3 дня машина произведет %d штук бутылок \n", performanceBottlesMfgPerThreeDays);
+        System.out.printf("За месяц машина произведет %d штук бутылок \n", performanceBottlesMfgPerThreeMonth);
     }
 }
