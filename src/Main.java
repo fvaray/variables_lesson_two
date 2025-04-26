@@ -69,5 +69,36 @@ public class Main {
         System.out.printf("В сутки машина произведет %d штук бутылок \n", performanceBottlesMfgPerDay);
         System.out.printf("За 3 дня машина произведет %d штук бутылок \n", performanceBottlesMfgPerThreeDays);
         System.out.printf("За месяц машина произведет %d штук бутылок \n", performanceBottlesMfgPerThreeMonth);
+        System.out.println(" ");
+
+        System.out.println("Задача 5");
+        int cntJarRepairSchool = 120;
+        int cntWhiteJars;
+        int cntBrownJars;
+        int twoWhiteJars = 2;
+        int fourBrownJars = 4;
+        int repairCntJarsOnClass = twoWhiteJars + fourBrownJars;
+        int cntClasses = cntJarRepairSchool / repairCntJarsOnClass;
+        cntWhiteJars = cntClasses * twoWhiteJars;
+        cntBrownJars = cntClasses * fourBrownJars;
+        System.out.printf("В школе, где %d классов, нужно %d банок белой краски и %d банок коричневой краски \n",cntClasses, cntWhiteJars, cntBrownJars);
+        System.out.println(" ");
+
+        System.out.println("Задача 6");
+        int cntBananaEtc = 5;
+        int weightBananaGramm = 80;
+        int cntMilkMl = 200;
+        int weightMilk100mlGramm = 105;
+        float weightMilk1mlGramm =  weightMilk100mlGramm / 105.0f;
+        int cntIceCreamEtc = 2;
+        int weightIceCreamGramm = 100;
+        int cntEggs = 4;
+        int weigthEggGramm = 70;
+        float weightSportBreakfastGramm = cntBananaEtc * weightBananaGramm +
+                cntMilkMl * weightMilk1mlGramm + cntIceCreamEtc * weightIceCreamGramm +
+                cntEggs * weigthEggGramm;
+        float weightSportBreakfastKg = weightSportBreakfastGramm / 1000.0f;
+        System.out.printf("Вес такого спортзавтрака составляет %.1f грамм или %.3f кг. \n",weightSportBreakfastGramm,weightSportBreakfastKg);
+        System.out.println(" ");
     }
 }
