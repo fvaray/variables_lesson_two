@@ -145,7 +145,7 @@ public class Main {
         System.out.printf("Кристина до повышения получала %d рублей в месяц \n",salaryRubPerMonthKristina);
         System.out.printf("Кристина теперь получает %.1f рублей в месяц \n",salaryIncreaseRubPerMonthKristina);
         System.out.printf("Годовой доход Кристины вырос на %.1f рублей \n",difSalaryYearKristina);
-        System.out.println(" ");
+        System.out.println("Конец домашки ");
 
 
     }
