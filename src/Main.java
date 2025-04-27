@@ -23,14 +23,14 @@ public class Main {
 
         System.out.println("Задача 2");
         float floatVarTwo = 27.12f;
-        double doubleVarTwo = 987_678_965_549.0f;
+        long longVarTwo = 987_678_965_549L;
         float floatVarThree = 2.786f;
         short shortVarTwo = 569;
         short shortVarThree = -159;
         short shortVarFour = 27897;
         byte byteVarTwo = 67;
         System.out.printf("Значение переменной floatVarTwo %.2f \n", floatVarTwo);
-        System.out.printf("Значение переменной doubleVarTwo %.0f \n", doubleVarTwo);
+        System.out.printf("Значение переменной longVarTwo %d \n", longVarTwo);
         System.out.printf("Значение переменной floatVarThree %.3f \n", floatVarThree);
         System.out.printf("Значение переменной shortVarTwo %d \n", shortVarTwo);
         System.out.printf("Значение переменной shortVarThree %d \n", shortVarThree);
