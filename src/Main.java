@@ -100,5 +100,53 @@ public class Main {
         float weightSportBreakfastKg = weightSportBreakfastGramm / 1000.0f;
         System.out.printf("Вес такого спортзавтрака составляет %.1f грамм или %.3f кг. \n",weightSportBreakfastGramm,weightSportBreakfastKg);
         System.out.println(" ");
+
+        System.out.println("Задача 7");
+        int cntKgLossRequired = 7;
+        float cntGrammLossRequired = cntKgLossRequired * 1000.0f;
+        float GRAM_250 = 250.0f;
+        float GRAM_500 = 500.0f;
+        float cntDaysLoss250Gramm = cntGrammLossRequired / GRAM_250;
+        float cntDaysLoss500Gramm = cntGrammLossRequired / GRAM_500;
+        System.out.printf("Если спортсмен будет худеть на 250 грамм в день, то он похудеет на 7 кг за %.1f дней \n",cntDaysLoss250Gramm);
+        System.out.printf("Если спортсмен будет худеть на 500 грамм в день, то он похудеет на 7 кг за %.1f дней \n",cntDaysLoss500Gramm);
+        float AvarageCntDaysLoss = (cntDaysLoss250Gramm + cntDaysLoss500Gramm)/2;
+        System.out.printf("Среднее кол-во дней, за которое спортсмен похудеет на 7 кг. равно %.1f дней \n",AvarageCntDaysLoss);
+        System.out.println(" ");
+
+        System.out.println("Задача 8");
+        int salaryRubPerMonthMasha = 67760;
+        int salaryRubPerMonthDenis = 83690;
+        int salaryRubPerMonthKristina = 76230;
+        float koefIncrease10percent = 1.1f;
+
+        float salaryIncreaseRubPerMonthMasha = salaryRubPerMonthMasha * koefIncrease10percent;
+        float salaryIncreaseRubPerMonthDenis = salaryRubPerMonthDenis * koefIncrease10percent;
+        float salaryIncreaseRubPerMonthKristina = salaryRubPerMonthKristina * koefIncrease10percent;
+
+        double salaryYearMasha = salaryRubPerMonthMasha * 12;
+        double salaryIncreaseYearMasha = salaryIncreaseRubPerMonthMasha * 12;
+        double salaryYearDenis = salaryRubPerMonthDenis * 12;
+        double salaryIncreaseYearDenis = salaryIncreaseRubPerMonthDenis * 12;
+        double salaryYearKristina = salaryRubPerMonthKristina * 12;
+        double salaryIncreaseYearKristina = salaryIncreaseRubPerMonthKristina * 12;
+
+        double difSalaryYearMasha = salaryIncreaseYearMasha - salaryYearMasha;
+        double difSalaryYearDenis = salaryIncreaseYearDenis - salaryYearDenis;
+        double difSalaryYearKristina = salaryIncreaseYearKristina - salaryYearKristina;
+        System.out.printf("Маша до повышения получала %d рублей в месяц \n",salaryRubPerMonthMasha);
+        System.out.printf("Маша теперь получает %.1f рублей в месяц \n",salaryIncreaseRubPerMonthMasha);
+        System.out.printf("Годовой доход Маши вырос на %.1f рублей \n",difSalaryYearMasha);
+        System.out.println(" ");
+        System.out.printf("Денис до повышения получала %d рублей в месяц \n",salaryRubPerMonthDenis);
+        System.out.printf("Денис теперь получает %.1f рублей в месяц \n",salaryIncreaseRubPerMonthDenis);
+        System.out.printf("Годовой доход Дениса вырос на %.1f рублей \n",difSalaryYearDenis);
+        System.out.println(" ");
+        System.out.printf("Кристина до повышения получала %d рублей в месяц \n",salaryRubPerMonthKristina);
+        System.out.printf("Кристина теперь получает %.1f рублей в месяц \n",salaryIncreaseRubPerMonthKristina);
+        System.out.printf("Годовой доход Кристины вырос на %.1f рублей \n",difSalaryYearKristina);
+        System.out.println(" ");
+
+
     }
 }
